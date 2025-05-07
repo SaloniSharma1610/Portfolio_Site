@@ -1,0 +1,121 @@
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f9f9f9;
+    position: relative;
+  }
+  .watermark-text {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    font-size: 150px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.05); /* Light faded effect */
+    z-index: 0;
+    white-space: nowrap;
+    pointer-events: none;
+  } 
+  .projects__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+    margin-top: 80px;
+  }
+  
+  .projects__subtitle {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  
+  .projects__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 80px;
+  }
+  
+  .project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 12px 10px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-card:hover .project-overlay {
+    opacity: 1;
+  }
+  
+  .project-overlay h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .project-description {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .project-text {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 auto;
+  }
+  
+  .project-link a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid #007BFF;
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .project-link a:hover {
+    color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+
+  /* Responsive tweaks */
+  @media (max-width: 600px) {
+    .projects {
+      padding: 40px 10px;
+    }
+    .watermark-text {
+        font-size: 50px;
+      }
+  }
+  

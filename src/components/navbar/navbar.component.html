@@ -1,0 +1,19 @@
+<nav class="navbar" data-aos="fade-down" >
+    <div class="navbar__logo">
+      <a >S A L O N I</a>
+    </div>
+  
+    <div class="navbar__menu" [ngClass]="{'active': menuOpen}">
+      <a routerLink="/home" (click)="closeMenu()">Home</a>
+      <a routerLink="/about" (click)="closeMenu()">About</a>
+      <a  href="#skill" (click)="closeMenu()">Skills</a>
+      <a href="#projects" (click)="closeMenu()">Projects</a>
+      <a href="#contact" (click)="closeMenu()">Contact</a>
+    </div>
+  
+    <div class="navbar__toggle" (click)="toggleMenu()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>

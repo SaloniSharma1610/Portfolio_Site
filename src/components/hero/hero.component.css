@@ -1,0 +1,118 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    min-height: calc(100vh - 60px); /* Full screen minus navbar */
+    background: #f9f9f9;
+    position: relative;
+  }
+  .watermark-text {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    transform: translateX(-50%);
+    font-size: 100px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.05); /* Light faded effect */
+    z-index: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  /* Text Content */
+  .hero__content {
+    flex: 1;
+    padding-right: 30px;
+    padding-left: 80px;
+  }
+  
+  .hero__content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .hero__content h1 span {
+    color: #b350e9; /* Accent color */
+  }
+  
+  .hero__content h2 {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .hero__content p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 500px;
+    margin-bottom: 30px;
+  }
+  
+  .hero__btn {
+    display: inline-block;
+    padding: 12px 20px;
+    color: #b350e9;
+    text-decoration: none;
+    font-size: 1rem;
+    border:2px solid #b350e9 ;
+  }
+  .hero__content a {
+    margin: 5px;
+  }
+  .hero__btn:hover {
+    background-color: #b350e9;
+    color: whitesmoke;
+  }
+  
+  /* Image */
+  .hero__image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+  
+  .hero__image img {
+    max-width: 80%;
+    max-height: 700px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .watermark-text {
+        font-size: 50px;
+      }
+    .hero__content {
+      padding: 0;
+    }
+  
+    .hero__content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero__content h2 {
+      font-size: 1.5rem;
+    }
+  
+    .hero__image {
+      margin-top: 30px;
+    }
+  }
+  
