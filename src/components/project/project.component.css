@@ -96,16 +96,16 @@
   .project-link a {
     display: inline-block;
     margin-top: 12px;
-    color: #007BFF;
+    color: #744185;
     text-decoration: none;
     font-weight: 500;
-    border-bottom: 1px solid #007BFF;
+    border-bottom: 1px solid #744185;
     transition: color 0.3s ease, border-color 0.3s ease;
   }
   
   .project-link a:hover {
-    color: #0056b3;
-    border-color: #0056b3;
+    color: #744185;
+    border-color: #744185;
   }
   
 

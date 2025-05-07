@@ -45,7 +45,10 @@
     font-size: 16px;
     color: #666;
   }
-  
+  .info-item a{
+    color: #666;
+  }
+
   .info-item i {
     font-size: 18px;
     margin-right: 10px;
