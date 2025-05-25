@@ -1,4 +1,4 @@
-# 💼 Developer Portfolio – Angular 17
+# Developer Portfolio – Angular 17
 
 A fully responsive, animated, and clean personal portfolio website built using **Angular 17**. This portfolio showcases your skills, projects, and contact information, and is styled with custom CSS (no Tailwind). The project includes scroll animations via the **AOS** library and uses Angular Routing for a seamless experience.
 
@@ -16,18 +16,11 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 ---
 
-## 🖼️ Screenshot
+## Screenshot
 
 ![Portfolio Screenshot](src/assets/portfolio-screenshot.png)
 
-## 🚀 Live Demo
-
-[🔗 View Portfolio Live](https://your-portfolio-url.com)  
-*(Replace with your deployed link)*
-
----
-
-## ✨ Features
+## Features
 
 - ✅ Built with **Angular 17** and **custom CSS**
 - ✅ Mobile-first responsive design
@@ -44,7 +37,7 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 ---
 
-## 🏗️ Built With
+## Built With
 
 - [Angular 17](https://angular.io/)
 - [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
@@ -53,7 +46,7 @@ Once the server is running, open your browser and navigate to `http://localhost:
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
